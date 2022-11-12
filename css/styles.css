@@ -1,0 +1,183 @@
+/* Variables */
+:root {
+  --brand-color: rgba(33, 150, 243, 1);
+  --brand-font: "Roboto", sans-serif;
+  --common-font-size: 14px;
+  --background-color: rgb(47, 48, 58);
+}
+
+/* General Styles */
+body {
+  color: #212121;
+  font-family: var(--brand-font);
+  font-size: var(--common-font-size);
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header Styles */
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--brand-color);
+  font-size: 26px;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  line-height: 1.938em;
+  font-weight: 700;
+}
+
+.header-links .header-link {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1em;
+}
+
+.header-links .header-link:hover,
+.header-links .header-link:focus,
+.header-links .header-link:active {
+  color: var(--brand-color);
+}
+
+.header-contact {
+  color: #757575;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1em;
+}
+
+.header-contact:hover,
+.header-contact:focus,
+.header-contact:active {
+  color: var(--brand-color);
+}
+
+/* Main Styles */
+/* Estudio Styles */
+
+/* Title Section */
+.title {
+  background-color: var(--background-color);
+}
+
+.title-text {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 3.75em;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.title-button {
+  color: #fff;
+  background-color: var(--brand-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875em;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Table Section */
+
+.attribute {
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.description {
+  color: #757575;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+/* Pictures Section */
+
+.sub-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.625em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188em;
+  letter-spacing: 0.03em;
+}
+
+.task {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.188em;
+  letter-spacing: 0.03em;
+}
+
+/* Portafolio Styles */
+
+.buttons .class-button {
+  background-color: rgba(245, 244, 250, 1);
+  font-family: var(--brand-font), sans-serif;
+  font-size: 16px;
+  line-height: 1.625em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.buttons .class-button:hover,
+.buttons .class-button:focus,
+.buttons .class-button:active {
+  cursor: pointer;
+  background-color: var(--brand-color);
+  color: #fff;
+}
+
+.product-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.25em;
+}
+
+.product-type {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.875em;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: var(--background-color);
+}
+
+.address {
+  color: rgba(255, 255, 255, 1);
+  line-height: 1.5em;
+  font-style: normal;
+}
+
+.contact .footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5em;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contact .footer-contact:hover,
+.contact .footer-contact:focus,
+.contact .footer-contact:active {
+  color: var(--brand-color);
+}
