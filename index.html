@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,23 +16,24 @@
   </head>
   <body>
     <header>
+      <section class="header">
       <a class="logo" href="index.html">WebStudio</a>
       <nav>
         <ul class="header-links">
-          <li><a class="header-link" href="#estudio">Estudio</a></li>
-          <li><a class="header-link" href="portfolio.html">Portafolio</a></li>
-          <li><a class="header-link" href="#contacto">Contactos</a></li>
+          <li class="header-element"><a class="header-link" href="#estudio">Estudio</a></li>
+          <li class="header-element"><a class="header-link" href="portfolio.html">Portafolio</a></li>
+          <li class="header-element"><a class="header-link" href="#contacto">Contactos</a></li>
         </ul>
       </nav>
       <a class="header-contact" href="mailto:info@devstudio.com"
         >info@devstudio.com</a
       >
       <a class="header-contact" href="tel:+525555296000">+52 55 5529 6000</a>
+    </section>
     </header>
 
     <main>
-      <article id="estudio">
-        <section class="title">
+        <section class="title" id="estudio">
           <h1 class="title-text">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
           <button type="button" class="title-button">
             Solicite nuestro servicio
@@ -168,7 +170,6 @@
             </li>
           </ul>
         </section>
-      </article>
     </main>
 
     <footer id="contacto">
