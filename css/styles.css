@@ -40,6 +40,11 @@ ul {
   margin-left: auto;
 }
 
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;}
+
+  
 /* Header Styles */
 
 .header {
@@ -120,7 +125,6 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  box-sizing: content-box;
   width: 696px;
   height: 120px;
   margin-top: 200px;
@@ -154,7 +158,12 @@ ul {
 /* Table Section */
 
 .attribute-table {
-  margin: 95px 215px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 95px;
+  margin-bottom: 95px;
 }
 
 .attribute {
@@ -163,19 +172,21 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .description {
   color: #757575;
   font-weight: 400;
-  line-height: 1.5em;
+  line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
+  width: 270px;
 }
 
 /* Pictures Section */
 
-/* A que nos dedicamos PICTURE */
+/* A que nos dedicamos PICTURES */
 
 .product-images {
   display: flex;
@@ -188,12 +199,18 @@ ul {
 
 /* Nuestro Equipo PICTURES */
 
+.cartas {
+  background-color: #F5F4FA;
+}
+
 .cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .card {
+  background-color: #fff;
+  border-bottom: 1px solid #757575;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -206,6 +223,8 @@ ul {
   line-height: 1.188em;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .task {
@@ -214,6 +233,7 @@ ul {
   line-height: 1.188em;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 /* Portafolio Styles */
@@ -251,17 +271,22 @@ ul {
 
 footer {
   background-color: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
+logo.bottom {margin-bottom: 9px;}
 
 .address {
   color: rgba(255, 255, 255, 1);
-  line-height: 1.5em;
+  line-height: 24px;
   font-style: normal;
+
 }
 
 .contact .footer-contact {
   color: rgba(255, 255, 255, 0.6);
-  line-height: 1.5em;
+  line-height: 24px;
   text-decoration: none;
   font-style: normal;
 }
