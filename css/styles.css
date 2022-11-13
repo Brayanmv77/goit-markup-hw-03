@@ -238,33 +238,67 @@ ul {
 
 /* Portafolio Styles */
 
-.buttons .class-button {
+.buttons {display: flex;
+justify-content: center;
+gap: 8px;
+margin-top: 106px;
+margin-bottom: 50px;}
+
+ .class-button {
   background-color: rgba(245, 244, 250, 1);
+  border: rgba(245, 244, 250, 1);
+  border-radius: 4px;
   font-family: var(--brand-font), sans-serif;
   font-size: 16px;
   line-height: 1.625em;
   font-weight: 500;
   text-align: center;
+  width: 128px;
+  height: 38px;
+
 }
 
-.buttons .class-button:hover,
-.buttons .class-button:focus,
-.buttons .class-button:active {
+.class-button:hover,
+.class-button:focus,
+.class-button:active {
   cursor: pointer;
   background-color: var(--brand-color);
   color: #fff;
 }
 
+.products {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 82px;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #EEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .product-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2.25em;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  text-align: center;
 }
 
 .product-type {
   color: #757575;
   font-size: 16px;
   line-height: 1.875em;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Footer Styles */
