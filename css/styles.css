@@ -7,10 +7,10 @@
 }
 
 /* General Styles */
-*,
-::before,
-::after {
-  margin: 0px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,8 +20,24 @@ body {
   font-weight: 400;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.625em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 ul {
   list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Header Styles */
@@ -30,8 +46,8 @@ ul {
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
   flex-wrap: wrap;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -44,6 +60,10 @@ ul {
   font-weight: 700;
 }
 
+.logo.top {
+  margin-right: 91px;
+}
+
 .header-links {
   width: 281px;
   padding: 0px;
@@ -51,6 +71,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin-right: 344px;
 }
 
 .header-link {
@@ -79,27 +100,44 @@ ul {
   color: var(--brand-color);
 }
 
+.header-contact.right {
+  margin-left: 50px;
+}
 /* Main Styles */
 /* Estudio Styles */
 
 /* Title Section */
 .title {
   background-color: var(--background-color);
-  height: 600px;
+  border: 1px solid;
 }
-
 
 .title-text {
   color: #fff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 3.75em;
+  line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  box-sizing: content-box;
+  width: 696px;
+  height: 120px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .title-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  gap: 10px;
+  margin-bottom: 200px;
+
   color: #fff;
   background-color: var(--brand-color);
   cursor: pointer;
@@ -108,9 +146,16 @@ ul {
   line-height: 1.875em;
   text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Table Section */
+
+.attribute-table {
+  margin: 95px 215px;
+}
 
 .attribute {
   font-weight: 700;
@@ -130,12 +175,29 @@ ul {
 
 /* Pictures Section */
 
-.sub-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 2.625em;
-  text-align: center;
-  letter-spacing: 0.03em;
+/* A que nos dedicamos PICTURE */
+
+.product-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+  margin-bottom: 188px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Nuestro Equipo PICTURES */
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .name {
@@ -143,6 +205,7 @@ ul {
   font-size: 16px;
   line-height: 1.188em;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .task {
@@ -150,6 +213,7 @@ ul {
   font-size: 16px;
   line-height: 1.188em;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /* Portafolio Styles */
