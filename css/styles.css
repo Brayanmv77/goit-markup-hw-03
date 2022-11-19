@@ -284,6 +284,7 @@ header {
 .product {
   background-color: #fff;
   border: 1px solid #eee;
+  border-bottom: 1px solid #212121;
   display: flex;
   flex-direction: column;
   justify-content: center;
