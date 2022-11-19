@@ -1,3 +1,5 @@
+@import url(modern-normalize.css);
+
 /* Variables */
 :root {
   --brand-color: rgba(33, 150, 243, 1);
@@ -41,8 +43,9 @@ ul {
 }
 
 .section {
+  height: 648px;
+  padding-top: 74px;
   padding-bottom: 94px;
-  padding-top: 94px;
 }
 
 /* Header Styles */
