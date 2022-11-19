@@ -42,17 +42,20 @@ ul {
 
 .section {
   padding-bottom: 94px;
-  padding-top: 94px;}
+  padding-top: 94px;
+}
 
-  
 /* Header Styles */
 
-.header {
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-menu {
   height: 80px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -200,7 +203,7 @@ ul {
 /* Nuestro Equipo PICTURES */
 
 .cartas {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .cards {
@@ -238,13 +241,15 @@ ul {
 
 /* Portafolio Styles */
 
-.buttons {display: flex;
-justify-content: center;
-gap: 8px;
-margin-top: 106px;
-margin-bottom: 50px;}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 106px;
+  margin-bottom: 50px;
+}
 
- .class-button {
+.class-button {
   background-color: rgba(245, 244, 250, 1);
   border: rgba(245, 244, 250, 1);
   border-radius: 4px;
@@ -255,7 +260,6 @@ margin-bottom: 50px;}
   text-align: center;
   width: 128px;
   height: 38px;
-
 }
 
 .class-button:hover,
@@ -276,13 +280,12 @@ margin-bottom: 50px;}
 
 .product {
   background-color: #fff;
-  border: 1px solid #EEE;
+  border: 1px solid #eee;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 
 .product-name {
   font-weight: 700;
@@ -305,28 +308,42 @@ margin-bottom: 50px;}
 
 footer {
   background-color: var(--background-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
 }
 
-logo.bottom {margin-bottom: 9px;}
+.contact-info {
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+logo.bottom {
+  margin-bottom: 9px;
+}
 
 .address {
   color: rgba(255, 255, 255, 1);
   line-height: 24px;
   font-style: normal;
-
+  margin-bottom: 4px;
 }
 
-.contact .footer-contact {
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contact {
   color: rgba(255, 255, 255, 0.6);
   line-height: 24px;
   text-decoration: none;
   font-style: normal;
 }
 
-.contact .footer-contact:hover,
-.contact .footer-contact:focus,
-.contact .footer-contact:active {
+.footer-contact:hover,
+.footer-contact:focus,
+.footer-contact:active {
   color: var(--brand-color);
 }
