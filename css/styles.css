@@ -44,7 +44,7 @@ ul {
 
 .section {
   height: 648px;
-  padding-top: 74px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -198,7 +198,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 55px;
-  margin-bottom: 188px;
+  margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
